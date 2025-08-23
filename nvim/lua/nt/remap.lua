@@ -10,4 +10,4 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 
 vim.keymap.set("x", "<leader>p", [["_dP]])
 
-vim.keymap.set("n", "<C-d>", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
+vim.keymap.set("n", "<C-l>", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
